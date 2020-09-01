@@ -26,6 +26,6 @@
     .movies {
         grid-template-columns: 1fr;
         width: 100%;
-        background-color: lawngreen;
+        background-color: white;
     }
 }
