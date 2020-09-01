@@ -1,4 +1,4 @@
-.Container {
+.container {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
 
 .movies {
     display: grid;
-    grid-template-columns: repeat(2, minmax(400px, ifr));
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
     grid-gap: 100px;
     padding: 50px;
     width: 80%;
@@ -26,6 +26,5 @@
     .movies {
         grid-template-columns: 1fr;
         width: 100%;
-        background-color: white;
     }
 }

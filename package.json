@@ -12,11 +12,17 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+<<<<<<< HEAD
     "react-scripts": "3.4.1"
+=======
+    "react-scripts": "^3.4.3"
+>>>>>>> 27515f13daddc947fc4591ac9c3ab39a5851c17e
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-page -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://jieunee.github.io/movie_app_2020"
 }
