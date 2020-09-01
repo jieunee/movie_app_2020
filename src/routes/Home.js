@@ -3,10 +3,6 @@ import axios from 'axios';
 import Movie from '../components/Movie';
 import './Home.css';
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 27515f13daddc947fc4591ac9c3ab39a5851c17e
 class Home extends React.Component {
   state = {
     isLoading: true,
